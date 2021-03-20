@@ -1,0 +1,156 @@
+body {
+    background: none !important;
+    background-color: transparent;
+}
+
+#container {
+    font-size: 20px;
+    padding: 9%;
+    color: rgb(0, 0, 0);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    height: 90%;
+    width: 150%;
+    border-radius: 10px;
+    opacity: 150px;
+    background: rgba(255, 255, 255, 0.884);
+    border: 4px solid rgb(50, 50, 50);
+    box-shadow: 0 0 10px 3px black;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+#deneme {
+        font-size: 20px;
+        padding: 9%;
+        color: rgb(0, 0, 0);
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    
+        height: 60%;
+        width: 60%;
+        border-radius: 10px;
+        opacity: 150px;
+        background: rgba(160, 0, 0, 0.884);
+        border: 4px solid rgb(50, 50, 50);
+        box-shadow: 0 0 10px 3px black;
+        -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+        -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+        box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    }
+    
+    
+}
+
+
+button {
+    text-align: center;
+    height: 100%;
+    font-size: 12px;
+    padding: 17% 15px;
+    margin-top: 4%;
+    margin-left: 8.5%;
+    width:80%;
+    background: rgb(174, 51, 51);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    transition: box-shadow 0.2s ease-in, background 0.2s ease-in;
+    padding: 20px;
+    color: rgb(0, 0, 0);
+}
+
+
+
+
+
+.logo{
+    position: fixed;
+    width:240px;
+    height: auto;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+
+.button{
+    position: fixed;
+    top: 80%;
+    left: 50%;
+    width:140px;
+    height: auto;
+    margin: 0;
+	font-size:15px;    
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+	color:rgb(0, 0, 0);
+}
+
+button:hover{
+    box-shadow: 0 0 2px 0.5px rgb(255, 0, 0) inset;
+    background: rgb(199, 115, 109);
+    
+}
+
+#aciklama{
+    padding: 17% 15px;
+    margin-top: 4%;
+    margin-left: 8.5%;
+    width:80%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#url{
+    padding: 5% 5px;
+    margin-top: 4%;
+    margin-left: 8.5%;
+    width:80%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.sumbit{
+    position: fixed;
+    width: 50%;
+    padding: 1%;
+    height: auto;
+    margin: 0;
+	font-size:15px;    
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    top: 95%;
+    left: 50%;
+    font-size: 15px;
+	color:rgb(0, 0, 0);
+    border: 0px solid red;
+    border-radius: 10px;
+}
+
+#title{
+    margin-left: 20%;
+    background-color: white;
+    border-radius: 10px;
+    width:50%;
+    padding: 4% ;
+    margin-top: 4%;
+    margin-left: 8.5%;
+    width:80%;
+    color: black;
+    font-size: 15px;
+}
+
+/* 
+h1{
+    text-align: center ;
+    margin-bottom: 5%;
+} */
