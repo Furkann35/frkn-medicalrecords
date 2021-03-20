@@ -1,5 +1,5 @@
 
-local DISCORD_WEBHOOK = "https://discord.com/api/webhooks/795287594287759380/i-jJBrg3duwWFlA3grsNBRkupKBjkuSQeWvuA4vQFBFIg65G_ULwekMyWrHUAnt3UnVm"
+local DISCORD_WEBHOOK = "BURAYA WEBHOOK GİRİNİZ"
 
 
 RegisterServerEvent('logyolla')
