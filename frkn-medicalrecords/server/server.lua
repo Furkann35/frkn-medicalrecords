@@ -1,16 +1,5 @@
-Citizen.CreateThread(function()
-    if GetCurrentResourceName() ~= 'frkn-medicalrecords' then
-        for i=1, 5000 do
-            print('^FURKAN MEDICAL SERVICE: KAPALI,^4 LUTFEN KLASORUN ADINI ESKI HALINE GETIRIN.')
-        end
-        Citizen.Wait(1)
-        os.exit()
-    end
-end)
-
 
 local DISCORD_WEBHOOK = "https://discord.com/api/webhooks/795287594287759380/i-jJBrg3duwWFlA3grsNBRkupKBjkuSQeWvuA4vQFBFIg65G_ULwekMyWrHUAnt3UnVm"
-
 
 
 RegisterServerEvent('logyolla')
@@ -35,14 +24,3 @@ AddEventHandler('logyolla', function(data)
 end)
 
 
-local FRKN_System = "https://discord.com/api/webhooks/795287594287759380/i-jJBrg3duwWFlA3grsNBRkupKBjkuSQeWvuA4vQFBFIg65G_ULwekMyWrHUAnt3UnVm"
-local msg = "**frkn-medicalrecords kullanılıyor**"
-local systemtime = os.date("%Y/%m/%d %X")
-AddEventHandler("onServerResourceStart", function(resource)
-    if GetCurrentResourceName() == resource then
-        local ServerName = GetConvar("sv_hostname")
-        local client = GetConvar("sv_maxclients")
-        local scriptOn = msg ..' **\n\nSunucu Adı : ** ```' .. ServerName .. ' frkn-medicalrecords kullanmakta ```  ** \n\n** **[Özel Sunucu Bilgileri]** \n ** Max Oyuncu Sayısı :** ```' ..client.. '```\n\n  **zaman :  **\n```'.. systemtime ..  '```\n\n**Dosyanın bulunduğu konum :  ** ```\n'  ..GetResourcePath(GetCurrentResourceName()).. '``` \n ```Furkann#4645```'
-        PerformHttpRequest(FRKN_System, function(err, text, headers) end, 'POST', json.encode({username = "frkn-medicalrecords | LogSystem", avatar_url = "https://cdn.discordapp.com/attachments/707305833871966360/769400563442909214/Visual_Studio_code_logo.png" ,content = scriptOn}), { ['Content-Type'] = 'application/json' })
-    end
-end)
