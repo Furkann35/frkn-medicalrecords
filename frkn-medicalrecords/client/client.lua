@@ -27,3 +27,4 @@ AddEventHandler('frkn:medicalrecords', function()
 ExecuteCommand('medical')
 end)
 
+
